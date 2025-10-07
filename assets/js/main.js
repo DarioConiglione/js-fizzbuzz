@@ -12,3 +12,15 @@ Consigli del giorno:
 scriviamo sempre prima dei commenti in italiano per capire cosa vogliamo fare
 proviamo ad immaginare le operazioni che vogliamo far svolgere al nostro programma così come lo faremmo "a mano" 
 */
+
+for (let number = 1; number <= 100; number++) {
+
+    if (number % 3 == 0) {
+        console.log("Fizz")
+    }
+
+    else {
+        console.log(number)
+    }
+
+}
