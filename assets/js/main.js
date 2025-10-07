@@ -19,8 +19,13 @@ for (let number = 1; number <= 100; number++) {
         console.log("Fizz")
     }
 
+    else if (number % 5 == 0) {
+        console.log("Buzz")
+    }
+
     else {
         console.log(number)
     }
 
 }
+
