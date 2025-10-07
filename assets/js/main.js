@@ -15,7 +15,10 @@ proviamo ad immaginare le operazioni che vogliamo far svolgere al nostro program
 
 for (let number = 1; number <= 100; number++) {
 
-    if (number % 3 == 0) {
+    if ((number % 3 == 0) && (number % 5 == 0)) {
+        console.log("FizzBuzz") }
+
+    else if (number % 3 == 0) {
         console.log("Fizz")
     }
 
@@ -25,11 +28,8 @@ for (let number = 1; number <= 100; number++) {
 
     else {
         console.log(number)
-    }
-
-    if ((number % 3 == 0) && (number % 5 == 0)) {
-        console.log("FizzBuzz")  
-    }
+    }   
+      
 
 }
 
